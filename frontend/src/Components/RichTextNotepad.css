@@ -1,0 +1,43 @@
+/* RichTextNotepad.css */
+.notepad-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.notepad-title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.editor-container {
+    margin-bottom: 20px;
+}
+
+.rich-text-editor {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    min-height: 200px;
+    background-color: white;
+}
+
+.markdown-output {
+    margin-top: 20px;
+}
+
+.markdown-output h2 {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.markdown-output pre {
+    padding: 10px;
+    background-color: #e8e8e8;
+    border-radius: 4px;
+}

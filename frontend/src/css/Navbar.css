@@ -1,0 +1,92 @@
+/* Navbar.css */
+.navbar {
+    background-color: #333;
+    padding: 16px;
+    margin: 0;
+    width: 99%;
+    
+    
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-logo {
+    color: rgb(191, 10, 10);
+    text-decoration: none;
+    font-size: 3rem;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    font-size: 2rem;
+    
+}
+
+.navbar-menu li {
+    margin: 0 10px;
+}
+
+.navbar-menu li a {
+    color: rgb(50, 40, 198);
+    text-decoration: none;
+    &:hover{
+        color: red;
+    }
+}
+
+.navbar-toggle {
+    display: none;
+    background: transparent;
+    border: none;
+    
+    &:hover{
+        transform: scaleX(1.2);
+        color: red;
+    }
+}
+
+.navbar-toggle .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 4px auto;
+    background-color: rgb(14, 88, 163);
+}
+
+/* Responsive CSS */
+@media (max-width: 768px) {
+    .navbar-menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 50px;
+        right: 9px;
+        background-color: #333;
+        
+        width: 95%;
+        padding: 10px;
+        margin-top: 52px;
+    
+       
+    }
+
+    .navbar-menu.active {
+        display: block;
+    }
+
+    .navbar-menu li {
+        margin: 30px;
+
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+}
+
+/* footer  */

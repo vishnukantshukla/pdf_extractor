@@ -1,0 +1,27 @@
+.img{
+    background-image: url("https://www.wallpapertip.com/wmimgs/40-400223_background-designs-for-projects.jpg");
+    width: 100vw;
+    height: 83vh;
+    /* margin-top: 200px; */
+}
+.hu{
+    
+    display: inline-block;
+    margin-left:32vw;
+    margin-top: 30vh;
+    font-size: 60px;
+    &:hover{
+        transform: scale(2,3);
+        color: red;
+        font-size: 40px;
+        border: 2px solid brown;
+    }
+    
+   
+   
+}
+/* h1 {
+    display: inline-block;
+    margin-left: 16vw;
+    margin-top: 32vh;
+} */
